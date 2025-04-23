@@ -48,6 +48,8 @@ public class Login {
         passwordField.sendKeys(password);
     }
 
+    
+    
     public void clickLoginButton() {
         loginButton.click();
     }
@@ -61,4 +63,5 @@ public class Login {
         wait.until(ExpectedConditions.visibilityOf(signupButton)); // Wait for visibility
         signupButton.click();
     }
+    
 }
