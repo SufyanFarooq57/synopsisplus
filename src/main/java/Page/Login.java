@@ -58,10 +58,10 @@ public class Login {
         return textElement.getText();
     }
 
-//    public void clickSignupButton() {
-//        WebDriverWait wait = new WebDriverWait(driver, 10);
-//        wait.until(ExpectedConditions.visibilityOf(signupButton)); // Wait for visibility
-//        signupButton.click();
-//    }
+    public void clickSignupButton() {
+       WebDriverWait wait = new WebDriverWait(driver, 10);       
+       wait.until(ExpectedConditions.visibilityOf(signupButton)); // Wait for visibility
+       signupButton.click();
+    }
     
 }
