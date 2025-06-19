@@ -63,5 +63,7 @@ public class Login {
        wait.until(ExpectedConditions.visibilityOf(signupButton)); // Wait for visibility
        signupButton.click();
     }
-    
+    public void newfun() {
+    	
+    }
 }
