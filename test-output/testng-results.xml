@@ -2,23 +2,23 @@
 <testng-results ignored="1" total="2" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-13T11:43:15 PKT" name="Default suite" finished-at="2025-02-13T11:43:16 PKT" duration-ms="945">
+  <suite started-at="2025-05-14T12:38:09 PKT" name="Default suite" finished-at="2025-05-14T12:38:10 PKT" duration-ms="850">
     <groups>
     </groups>
-    <test started-at="2025-02-13T11:43:15 PKT" name="Default test" finished-at="2025-02-13T11:43:16 PKT" duration-ms="945">
+    <test started-at="2025-05-14T12:38:09 PKT" name="Default test" finished-at="2025-05-14T12:38:10 PKT" duration-ms="850">
       <class name="Test.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Test.LoginTest@564fabc8]" started-at="2025-02-13T11:43:15 PKT" name="setup" finished-at="2025-02-13T11:43:16 PKT" duration-ms="836" status="FAIL">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Test.LoginTest@564fabc8]" started-at="2025-05-14T12:38:09 PKT" name="setup" finished-at="2025-05-14T12:38:10 PKT" duration-ms="742" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: no further information
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-8S3P0PE', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+System info: host: 'DESKTOP-8S3P0PE', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: no further information
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-8S3P0PE', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+System info: host: 'DESKTOP-8S3P0PE', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:262)
 at java.base/java.util.Optional.orElseGet(Optional.java:364)
@@ -111,18 +111,18 @@ at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecu
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:0, instance:Test.LoginTest@564fabc8]" started-at="2025-02-13T11:43:16 PKT" name="testLogin" finished-at="2025-02-13T11:43:16 PKT" duration-ms="0" status="SKIP">
+        <test-method signature="testLogin()[pri:0, instance:Test.LoginTest@564fabc8]" started-at="2025-05-14T12:38:10 PKT" name="testLogin" finished-at="2025-05-14T12:38:10 PKT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Connection refused: no further information
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-8S3P0PE', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+System info: host: 'DESKTOP-8S3P0PE', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: driver.version: AndroidDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Connection refused: no further information
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-8S3P0PE', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+System info: host: 'DESKTOP-8S3P0PE', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: driver.version: AndroidDriver
 at io.appium.java_client.remote.AppiumCommandExecutor.lambda$6(AppiumCommandExecutor.java:262)
 at java.base/java.util.Optional.orElseGet(Optional.java:364)
